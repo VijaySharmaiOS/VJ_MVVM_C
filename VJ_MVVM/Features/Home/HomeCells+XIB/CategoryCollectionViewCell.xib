@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="VJ_MVVM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="161" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="161" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXG-aN-HPf">
+                        <rect key="frame" x="0.0" y="0.0" width="161" height="105"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_car" translatesAutoresizingMaskIntoConstraints="NO" id="ZBL-S7-NBp">
+                                <rect key="frame" x="0.0" y="0.0" width="161" height="85"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="AppColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sedan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRQ-QQ-bqz">
+                                <rect key="frame" x="0.0" y="85" width="161" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="gVe-GG-nvu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZBL-S7-NBp" secondAttribute="trailing" id="5B5-sd-Ud0"/>
+                            <constraint firstItem="ZBL-S7-NBp" firstAttribute="leading" secondItem="kXG-aN-HPf" secondAttribute="leading" id="6b3-te-7vO"/>
+                            <constraint firstAttribute="bottom" secondItem="iRQ-QQ-bqz" secondAttribute="bottom" id="Ane-ld-NUA"/>
+                            <constraint firstItem="iRQ-QQ-bqz" firstAttribute="top" secondItem="ZBL-S7-NBp" secondAttribute="bottom" id="PzS-hE-o5p"/>
+                            <constraint firstItem="ZBL-S7-NBp" firstAttribute="top" secondItem="kXG-aN-HPf" secondAttribute="top" id="UgQ-YL-xVZ"/>
+                            <constraint firstItem="iRQ-QQ-bqz" firstAttribute="leading" secondItem="kXG-aN-HPf" secondAttribute="leading" id="WEb-df-4BY"/>
+                            <constraint firstAttribute="trailing" secondItem="iRQ-QQ-bqz" secondAttribute="trailing" id="hac-B9-3Bi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kXG-aN-HPf" secondAttribute="bottom" id="15E-fc-mJF"/>
+                <constraint firstItem="kXG-aN-HPf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="DHj-Bs-cKu"/>
+                <constraint firstItem="kXG-aN-HPf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="K9a-ZP-gWK"/>
+                <constraint firstAttribute="trailing" secondItem="kXG-aN-HPf" secondAttribute="trailing" id="aw0-0i-LZ9"/>
+            </constraints>
+            <size key="customSize" width="161" height="105"/>
+            <point key="canvasLocation" x="64.885496183206101" y="36.971830985915496"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_car" width="374" height="191"/>
+        <namedColor name="AppColor">
+            <color red="0.34509803921568627" green="0.75686274509803919" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

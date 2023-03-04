@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "36006F1F-9F36-4201-9E38-59833B899515"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC669526-0A7F-4E82-AF02-76D9C40CDF43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85878DF4-08F3-4839-B7A2-2E604633CF17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "85878DF4-08F3-4839-B7A2-2E604633CF17 - d3d52b23c43bc762"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VJ_MVVM.ServiceRouter.performDataTask&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: VJ_MVVM.NetworkRoute, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, VJ_MVVM.NetworkingError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VJ_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Desktop/VJ_MVVM/VJ_MVVM/Network/NetworkRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "85878DF4-08F3-4839-B7A2-2E604633CF17 - 5993dfab3a4ced05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VJ_MVVM.ServiceRouter.performDataTask&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: VJ_MVVM.NetworkRoute, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, VJ_MVVM.NetworkingError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VJ_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Desktop/VJ_MVVM/VJ_MVVM/Network/NetworkRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A85BEA9F-8E20-4C58-A578-F86378B4B303"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A85BEA9F-8E20-4C58-A578-F86378B4B303 - 5993dfab3a4ceda0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VJ_MVVM.ServiceRouter.performDataTask&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: VJ_MVVM.NetworkRoute, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, VJ_MVVM.NetworkingError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VJ_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Desktop/VJ_MVVM/VJ_MVVM/Network/NetworkRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "A85BEA9F-8E20-4C58-A578-F86378B4B303 - 5993dfab3a4ceda0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in VJ_MVVM.ServiceRouter.performDataTask&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: VJ_MVVM.NetworkRoute, completionHandler: (Swift.Result&lt;&#x3c4;_0_0, VJ_MVVM.NetworkingError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VJ_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijay/Desktop/VJ_MVVM/VJ_MVVM/Network/NetworkRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "776">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C534C353-8EEC-4BE3-8F82-44EA4C7A4979"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F993E750-FC61-4246-B0D2-BC9B821B7E22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F84D7DAE-ADC7-49C5-80B3-4C97153EF94C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B35DD58-8F7D-463C-B95A-21C2D0D85130"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VJ_MVVM/Network/NetworkRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "performDataTask(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
